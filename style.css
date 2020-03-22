@@ -1,0 +1,411 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    height:4000px;
+}
+
+/*NAVIGATION*/
+
+nav{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px; 
+    width: 100%;
+    position: fixed;
+   
+}
+img{
+    order:1;
+    height:50px; 
+    width:50px;    
+    padding:15px;
+}
+#search:hover{
+    background-color: #ff343d;
+    transition-duration:0.4s;
+}
+.nav-li{
+    color:whitesmoke;
+    list-style-type:none;
+    display: inline;
+    padding:20px;
+    text-transform: uppercase;
+    
+}
+
+.nav-li:hover{
+    background-color:#CCCCCC;
+    color:black;
+}
+
+
+/*MAIN SECTION*/
+
+
+.div-photo{
+    background-image:url("music.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*
+.h2-main-div{
+    color:whitesmoke;
+    text-align: center;
+    position: absolute;
+    font-size:30px;
+}
+*/
+
+.main-div-text{
+    height: 400px;
+    padding-top: 50px;
+}
+
+#div-h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing:5px;
+}
+
+.div-p{
+    color:#656565;
+    text-align: center;
+    margin-top:30px;
+    font-style: italic;
+}
+
+.div-p1{
+    color:black;
+    text-align: justify;
+    padding-top:25px;
+    line-height:25px;
+    margin:0px 27.5%;
+}
+
+
+
+.p-header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.p-text{
+    margin:0px 110px;
+    font-size: 15px;
+}
+
+
+
+.div-three-photos{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.band-photo{
+    height:200px;
+    width:200px;
+    margin:0px 30px;
+    border-radius:20px;
+}
+
+
+/*TOUR-DATES*/
+
+.tour-dates{
+    height:1000px;
+    background-color:#000000;
+    margin-top:90px;
+}
+
+.tour-date-p{
+    color:whitesmoke;
+    text-transform: uppercase;
+    font-size: 28px;
+    letter-spacing: 7px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+.tour-date-p-section{
+    color:#656565;
+    font-style: italic;
+    text-align: center;
+    margin-top:20px;
+}
+
+
+.months-sold{
+    width: 50%;
+    height: 150px;
+    /*transform: translateX(73%);
+    margin-top:50px;*/
+    margin:50px auto 0px auto;
+}
+
+.ul-sold{
+    background-color:white;
+    height:100%;
+}
+
+.li-sold{
+    display: block;
+    color:#656565;
+    padding:15px;
+}
+
+.li-sold-border{
+    border-top: 1px solid gray;
+}
+
+.span{
+    margin-left:7px;
+    background-color:#FF343D;
+    padding:3px 10px;
+    color:white;
+    
+}
+
+#circle{
+    float:right;
+    padding:1px 8px;   
+    background-color:black;
+    border-radius: 50%;
+    text-align: center;
+    color:white;
+}
+
+/*TOUR DATES 3 PHOTOS */
+
+.slike-i-liste-div{
+    height: 500px;
+    width: 50%;
+    margin:auto;
+}
+
+.slike{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.city{
+    margin:0px;
+    padding:0px;
+    height:200px;
+    width:295px;
+}
+
+.city:hover{
+    opacity: 0.5;
+}
+
+.all-div{
+    display: flex;
+    justify-content:space-between;
+    height: 250px;
+    
+}
+
+.ul-liste{
+   /* margin:0px 10px;*/
+    line-height:25px;
+    background-color: white;
+    
+}
+
+li{
+    list-style-type:none;
+}
+
+.list-li:nth-child(1){
+    font-weight: bold;
+    text-align: left;
+    margin-bottom:20px;
+    color:black;
+}
+
+.list-li:nth-child(2){
+    color:#656565;
+    margin-bottom:20px;
+}
+
+.ul-liste-1{
+ margin:0 16px 0 0;
+}
+
+
+.ul-liste-2{
+    margin:0 16px 0 0;
+}
+
+.list-li{
+    margin-top:10px;
+    margin-left: 10px;
+}
+
+.a-div{
+    width:150px;
+    height: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.a-link{
+    background-color: #000000;
+    color:white;
+    text-decoration:none;
+    padding:10px 15px;
+}
+
+.a-link:hover{
+    color:black;
+    background-color:#CCCCCC;
+}
+
+
+/*CONTANT*/
+
+
+.contact-me-div{
+    height: 150px;
+    width: 50%;
+    margin:auto;
+    position: relative;
+}
+
+.contact-me-text > h1{
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-transform: uppercase;
+    letter-spacing: 9px;
+}
+
+.contact-me-text > p{
+    text-align: center;
+    position: absolute;
+    top:80%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+.tour-dates-photos{
+    height: 530px;
+    width: 50%;
+    transform: translateX(50%);
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    background-color: red;
+}
+
+
+.city{
+    padding:0px;
+    margin:0px 7px;
+    height: 230px;
+    width: 270px;
+}
+
+
+
+
+
+.tour-dates-text{
+    height: 300px;
+    width: 77%;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+}
+
+.tour-dates-text-ul{
+    height: 100%;
+    width:18.5%;
+    background-color:white;
+    margin-right: 10px;
+}
+
+.tour-dates-text-li{
+    list-style-type:none;
+    margin-top:10px;
+    text-align: center;
+    color:blue;
+
+}
+
+.tour-dates-text-li-bold{
+    font-weight: bold;
+    color:blue;
+}
+
+.tour-dates-text-li-grey{
+    color:#656565;
+}
+
+.tour-dates-text-ul-3{
+    margin-left:28px;
+}
+
+*/
